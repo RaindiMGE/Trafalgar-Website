@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("trafalgar-image/dots.svg"), 
+    url("trafalgar-image/trafalgar-header-illustration.svg");
+    background-repeat: no-repeat;
+    background-position: left 184px, top 150px right 131px;
+    background-size: auto, 700px 500px;
+    height: 650px;
+}
+
+div, a, h1, h2, h3, h4, span, p, img, form {
+    background-image: unset;
+}
+
+
+.mainNavDiv {
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.nav_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 150px;
+}
+
+.navDiv {
+    width: 920px;
+    display: inline-block;
+    text-align: end;
+}
+
+.home_span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav_span {
+    vertical-align: middle;
+    margin: 0 30px;
+    color:  #1F1534;
+}
+
+.header_text {
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+.header_h1 {
+    font-size: 48px;
+    width: 380px;
+    margin-bottom: 25px;
+}
+
+.header_p {
+    font-size: 21px;
+    width: 390px;
+    margin-bottom: 45px;
+    color: #7D7987;
+}
+
+.consult_bottun {
+    background-color: #458FF6;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: 0;
+}
+
+
+/* main */
+
+.servicesDiv {
+    background-image: url("trafalgar-image/services-img.png"), 
+    url("trafalgar-image/services-dots.png");
+    background-repeat: no-repeat;
+    background-position: top 140px left, bottom 320px right 250px;
+    background-size: 700px 650px, auto;
+    margin-top: 180px;
+}
+
+.hr {
+    display: block;
+    margin: 31px auto;
+    height: 2px;
+    background-color: #000;
+    border-radius: 25px;
+    width: 45px;
+}
+
+.services_h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.services_p {
+    line-height: 30px;
+    text-align: center;
+    width: 850px;
+    margin: 31px auto;
+    font-size: 18px;
+}
+
+.containersDiv {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.container {
+    box-shadow: 10px 10px 20px  #c6bfbf;
+    background-color: #fff;
+    display: inline-block;
+    width: 279px;
+    height: 330px;
+    border-radius: 25px;
+    margin: 34px 0 0 0;
+    background-repeat: no-repeat;
+    background-position: top 54px left 39px;
+}
+
+
+.container_h3 {
+    margin-left: 39px;
+    margin-top: 166px;
+    padding: 5px 0;
+}
+
+.container_p {
+    margin-left: 39px;
+    margin-top: 1px;
+    width: 230px;
+}
+
+.searchDiv {
+    background-image: url("trafalgar-image/search-icon.png");
+}
+
+.onlineDiv {
+    background-image: url("trafalgar-image/online-icon.png");
+}
+  
+.consultationDiv {
+    background-image: url("trafalgar-image/consultation.png"); 
+}
+
+.detailsDiv {
+    background-image: url("trafalgar-image/Frame.png");
+}
+
+.emergencyDiv {
+    background-image: url("trafalgar-image/emergency.png");
+    vertical-align: top;
+}
+
+.trackingDiv {
+    background-image: url("trafalgar-image/tracking.png");
+    vertical-align: top;
+}
+
+.midle {
+    margin: 0 34px;
+    margin-top: 34px;
+}
+
+.left {
+    margin-left: 18px;
+}
+
+.learnMore_botton {
+    margin-top: 69px;
+    padding:  10px 40px;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 72px;
+}
+
+
+
+
+.leading-container {
+    background-image: url("trafalgar-image/leading-img.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 400px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 260px;
+    
+}
+
+.leading_text {
+    width: 500px;
+    margin: 0 auto 0 60%;
+}
+
+.leading_h2 {
+    width: 300px;
+    padding-top: 57px;
+    font-size: 36px;
+}
+
+.leading_p {
+    width: 320px;
+}
+
+.leading_hr {
+    width: 56px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+
+.leading-botton {
+    background-color: #fff;
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+
+.download-container {
+    background-image: url("trafalgar-image/dow-dots.png"),
+    url("trafalgar-image/download.png");
+    background-repeat: no-repeat;
+    background-position: top right, right bottom;
+}
+
+.download_text{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 265px;
+}
+
+.download_h2 {
+    width: 220px;
+    font-size: 36px;
+}
+
+.download_hr {
+    width: 56px;
+    border: 1px solid #000;
+    margin: 30px 0;
+}
+
+.download_p {
+    width: 330px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.download-botton {
+    margin-bottom: 20px;
+    color: #458FF6;
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: #fff;
+    border: 1px solid #458FF6;
+}
+
+
+.mainFeedbackDiv {
+    background-image: url("trafalgar-image/dow-dots.png");
+    background-repeat: no-repeat;
+    background-position: bottom 100px left 100px;
+    margin-top: 266px;
+}
+
+.feedback-container {
+    background-image: url("trafalgar-image/feedback-dots.png"), linear-gradient( -45deg, #67C3F3, #5A98F2 );
+    background-repeat: no-repeat;
+    background-position: top  right;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 25px;
+    height: 400px;
+}
+
+.feedback_h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    padding: 60px 0 25px 0;
+}
+
+.feedback_hr {
+    width: 56px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.feedback_img {
+    border: 5px solid #fff;
+    border-radius: 100px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.author, .author + p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.author {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.picture_p {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.pictureDiv {
+    width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feedback_p {
+    vertical-align: middle;
+    width: 300px;
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    margin-left: 88px;
+}
+
+.feedback-simple {
+    width: 745px;
+    margin: 70px auto;
+}
+
+.feedback-scroll {
+    vertical-align: middle;
+    margin: 0 60px;
+}
+
+.scrollDiv {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+
+
+
+.ckeckDiv {
+    background-image: url("trafalgar-image/check-dots.svg"), 
+    url("trafalgar-image/check-image.svg");
+    background-repeat: no-repeat;
+    background-position: top 100px left 190px, top 80px right;
+    background-size: auto, 500px 450px;
+    margin-top: 220px;
+}
+
+.ckeck_h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.ckeck_hr {
+    width: 56px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 72px;
+}
+
+.check_img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.ckeck-box {
+    background-color: #fff;
+    width: 300px;
+    height: 430px;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: #b8afaf 0px 20px 20px;
+}
+
+.middle-box {
+    margin: 0 64px;
+}
+
+.ckeck-containers {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.box_h3 {
+    font-size: 21px;
+    width: 240px;
+    margin: 21px auto 12px 25px;
+}
+
+.box_p {
+    width: 240px;
+    margin: 0 25px 25px 25px;
+}
+
+.box-p {
+    width: 220px;
+}
+
+.box-button {
+    background-color: #fff;
+    color: #4089ED;
+    border: 0;
+    margin: 0 25px;
+}
+
+.check-button {
+    background-color: #fff;
+    color: #458FF6;
+    border: 1px solid #458FF6;
+    padding: 10px 65px;
+    border-radius: 25px;
+    margin: 72px auto;
+    display: block;
+    margin-bottom: 0;
+}
+
+
+
+.mainFooterDiv {
+    background-image: url("trafalgar-image/footer-dots.png");
+    background-repeat: no-repeat;
+    background-position: top 125px right 100px;
+}
+
+.footerDiv {
+    padding-top: 200px;
+}
+
+.footer-text {
+    background-image: url("trafalgar-image/last-dots.png"),
+    linear-gradient( 180deg, #67C3F3, #5A98F2);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 1519px;
+    margin: 0 auto;
+}
+
+.for-widthDiv {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 115px 0;
+}
+
+.logo-span {
+    color: #5B9BF3;
+    background-color: #fff;
+    padding: 5px 13px;
+    border: 1px solid #5B9BF3;
+    border-radius: 9999999px;
+    font-size: 25px;
+}
+
+.traf_h3 {
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.first-box_p, .first-box_p + p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.first-box_p + p {
+    margin-top: 31px;
+    font-size: unset;
+}
+
+.footer-box {
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+}
+
+.logo-box {
+    width: 335px;
+}
+
+.connect-span {
+    display: block;
+    margin: 15px 0;
+}
+
+.connect-h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.connect-box {
+    margin-left: 145px;
+}
